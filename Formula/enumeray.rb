@@ -3,7 +3,7 @@ require "json"
 class Enumeray < Formula
   desc "Run scientific models through an authorized Enumeray service"
   homepage "https://enumeray.com"
-  version "0.1.0-alpha.1"
+  version "0.1.0-alpha.2"
   license "Apache-2.0"
 
   depends_on :macos
@@ -11,12 +11,12 @@ class Enumeray < Formula
   on_macos do
     depends_on macos: :sequoia
     on_arm do
-      url "https://github.com/raysofspace/enumeray-cli/releases/download/v0.1.0-alpha.1/enumeray-0.1.0-alpha.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9da89bd8a93e6393c904048ed9122837672accad21ef2fbbd94a8f0acf2461a4"
+      url "https://github.com/raysofspace/enumeray-cli/releases/download/v0.1.0-alpha.2/enumeray-0.1.0-alpha.2-aarch64-apple-darwin.tar.gz"
+      sha256 "5ba584a2f8050058da115192f5d17b5f163412d0e993bffc7058f775694a6536"
     end
     on_intel do
-      url "https://github.com/raysofspace/enumeray-cli/releases/download/v0.1.0-alpha.1/enumeray-0.1.0-alpha.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d0965b8235a876c8b1fb4e131460a23e8c2da370e1e2501dbe719198c38c7000"
+      url "https://github.com/raysofspace/enumeray-cli/releases/download/v0.1.0-alpha.2/enumeray-0.1.0-alpha.2-x86_64-apple-darwin.tar.gz"
+      sha256 "229610111a82738c4253aeeec5368b5e2c9edff4798cf9fcfa7df7cfe0fc0f78"
     end
   end
 
